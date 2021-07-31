@@ -1,0 +1,60 @@
+body{
+    background-color: #72BAFF;
+}
+
+h1{
+    color: blueviolet;
+    padding: 20px;
+    margin-left: 680px;
+}
+
+
+
+.header{
+    background-color: coral;
+    display: flex;
+    justify-content: space-between;
+}
+
+p,h2{
+    text-align: center;
+    color: #5C003C;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.grid img{
+    border: 5px solid teal;
+    border-radius: 50px;
+}
+
+a:link{
+    color: yellow;
+}
+
+a:visited{
+    color:white
+}
+
+.item{
+    position: relative;
+}
+
+.item p{
+    position: absolute;
+    top: 50px;
+    left: 250px;
+    opacity: 0;
+}
+
+.item:hover p{
+    opacity: 1;
+}
+
+.item:hover img{
+    opacity: 0.3;
+}
